@@ -1,0 +1,85 @@
+.visitor-form-section {
+  background: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.visitor-form-container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.visitor-form-section h2 {
+  color: #1f3c88;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.visitor-form input {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.75rem 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.visitor-form input:focus {
+  border-color: #1f3c88;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(31, 60, 136, 0.2);
+}
+
+.visitor-form button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.9rem;
+  background-color: #1f3c88;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.visitor-form button:hover {
+  background-color: #3a64e6;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+.download-section p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.download-section button {
+  background-color: #e91e63;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.download-section button:hover {
+  background-color: #d81b60;
+}
+
