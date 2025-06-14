@@ -104,7 +104,7 @@ const VisitorForm = () => {
           <div className="download-section">
             <p>Thank you! You can now download the PDF:</p>
             <a
-              href="http://localhost:5000/api/download-pdf"
+              href="https://backend-8lse.onrender.com/api/download-pdf"
               target="_blank"
               rel="noreferrer"
             >
